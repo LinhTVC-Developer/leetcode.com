@@ -89,29 +89,29 @@ public class BrowserHistoryManager
     }
 }
 
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        var lichSu = new BrowserHistoryManager("https://trangchu.com");
-        lichSu.DuyetTrangMoi("https://google.com");
-        lichSu.DuyetTrangMoi("https://youtube.com");
-        lichSu.DuyetTrangMoi("https://facebook.com");
+//public class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        var lichSu = new BrowserHistoryManager("https://trangchu.com");
+//        lichSu.DuyetTrangMoi("https://google.com");
+//        lichSu.DuyetTrangMoi("https://youtube.com");
+//        lichSu.DuyetTrangMoi("https://facebook.com");
 
-        lichSu.InLichSu();
+//        lichSu.InLichSu();
 
-        lichSu.QuayLai();
-        lichSu.QuayLai();
+//        lichSu.QuayLai();
+//        lichSu.QuayLai();
 
-        Console.WriteLine($"\n Trang hiện tại: {lichSu.UrlHienTai}");
+//        Console.WriteLine($"\n Trang hiện tại: {lichSu.UrlHienTai}");
 
-        lichSu.TienLen();
-        lichSu.TienLen();
+//        lichSu.TienLen();
+//        lichSu.TienLen();
 
-        Console.WriteLine("\n ---- Duyệt trang mới khi đang ở giữa");
-        lichSu.QuayLai();
-        lichSu.DuyetTrangMoi("https://newsite.com");
+//        Console.WriteLine("\n ---- Duyệt trang mới khi đang ở giữa");
+//        lichSu.QuayLai();
+//        lichSu.DuyetTrangMoi("https://newsite.com");
 
-        lichSu.InLichSu();
-    }
-}
+//        lichSu.InLichSu();
+//    }
+//}

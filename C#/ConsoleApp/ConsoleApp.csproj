@@ -7,4 +7,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="DSA\Intro.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DSA\LinkedLists\" />
+    <Folder Include="DSA\HashTables\" />
+    <Folder Include="DSA\Graphs\" />
+    <Folder Include="DSA\MinimumSpanning\MinimumFlow\" />
+    <Folder Include="DSA\MinimumSpanning\TimeComplexity\" />
+    <Folder Include="DSA\MinimumSpanning\Tree\" />
+    <Folder Include="DSA\ShortestPath\" />
+    <Folder Include="DSA\Trees\" />
+    <Folder Include="DSA\StacksAndQueues\" />
+  </ItemGroup>
+
 </Project>

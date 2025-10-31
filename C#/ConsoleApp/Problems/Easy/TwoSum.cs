@@ -2,9 +2,9 @@
 {
     public class TwoSum
     {
-        public void Main()
-        {
-            Console.WriteLine("test");
-        }
+        //public void Main()
+        //{
+        //    Console.WriteLine("test");
+        //}
     }
 }
