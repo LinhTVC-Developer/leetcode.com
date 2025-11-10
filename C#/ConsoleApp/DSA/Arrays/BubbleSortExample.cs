@@ -9,11 +9,14 @@ public class BubbleSortExample
         {
             for (int j = i+1; j <= intArr.Length - 1; j++)
             {
-                int intTemp = intArr[i];
-                if (intArr[j] < intTemp)
+                
+                if (intArr[j] < intArr[i])
                 {
-                    intArr[i] = intArr[j];
-                    intArr[j] = intTemp;
+                    //int intTemp = intArr[i];
+                    //intArr[i] = intArr[j];
+                    //intArr[j] = intArr[i];
+
+                    (intArr[i], intArr[j]) = (intArr[j], intArr[i]);
                 }
             }
         }
